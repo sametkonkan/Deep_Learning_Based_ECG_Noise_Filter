@@ -39,16 +39,17 @@ MIT-BIH Aritmi Veritabanı kullanılarak EKG sinyallerinden:
 2. Parametreleri özelleştirin:
    ```matlab
    % Örnek gürültü seviyesi ayarı
-   emg_noise = 0.4 * randn(size(ecg_clean)); % Satır 78
+   emg_noise = 0.4 * randn(size(ecg_clean)); 
    ```
 3. Eğitilmiş modeli yükleyin:
    ```matlab
-   load('ecg_denoiser_net.mat'); % Satır 260
+   load('ecg_denoiser_net.mat'); 
    ```
 
 ## 📊 Sonuçlar
 ### Örnek Çıktılar
-![ECG Analiz](ECG_Analysis_100.png)
+![ECG Analiz](![Uploading image.png…]()
+)
 
 ### Performans Metrikleri
 | Metrik       | Wavelet | Derin Öğrenme |
