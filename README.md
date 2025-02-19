@@ -48,7 +48,7 @@ MIT-BIH Aritmi Veritabanı kullanılarak EKG sinyallerinden:
 
 ## 📊 Sonuçlar
 ### Örnek Çıktılar
-![ECG Analiz]([ECG_Analysis_100.png]([https://github.com/sametkonkan/Deep_Learning_Based_ECG_Noise_Filter/blob/main/results/ECG_Analysis_104.png](https://github.com/sametkonkan/Deep_Learning_Based_ECG_Noise_Filter/blob/main/results/ECG_Analysis_214.png?raw=true)))
+![ECG Analiz](https://github.com/sametkonkan/Deep_Learning_Based_ECG_Noise_Filter/blob/main/results/ECG_Analysis_222.png?raw=true)
 
 ### Performans Metrikleri
 | Metrik       | Wavelet | Derin Öğrenme |
