@@ -41,15 +41,14 @@ MIT-BIH Aritmi Veritabanı kullanılarak EKG sinyallerinden:
    % Örnek gürültü seviyesi ayarı
    emg_noise = 0.4 * randn(size(ecg_clean)); 
    ```
-3. Eğitilmiş modeli yükleyin:
+3. Eğitilmiş yapay zeka modeli yükleyin:
    ```matlab
    load('ecg_denoiser_net.mat'); 
    ```
 
 ## 📊 Sonuçlar
 ### Örnek Çıktılar
-![ECG Analiz](![Uploading image.png…]()
-)
+![ECG Analiz]([ECG_Analysis_100.png](https://github.com/sametkonkan/Deep_Learning_Based_ECG_Noise_Filter/blob/main/results/ECG_Analysis_104.png))
 
 ### Performans Metrikleri
 | Metrik       | Wavelet | Derin Öğrenme |
